@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>提款宝 - 渠道管理</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="dashboard.html">提款宝</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" style="display: none;">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" style="display: none;">
+                <input type="text" class="form-control" placeholder="Search...">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><a href="channels.html">渠道管理</a></li>
+                <li><a href="apply-list.html">申请列表</a></li>
+                <li><a href="users-list.html">用户列表</a></li>
+                <li><a href="business-data.html">业务数据</a></li>
+            </ul>
+            <ul class="nav nav-sidebar">
+                <li><a href="login.html">退出登录</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="col-sm-8">
+                        <a class="btn btn-primary" href="channel-setting.html">新增渠道</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="渠道名">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">搜 索</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">渠道列表</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>渠道名</th>
+                                <th>渠道URL</th>
+                                <th>金额范围</th>
+                                <th>月利率</th>
+                                <th>优先级</th>
+                                <th>状态</th>
+                                <th>更多操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>读秒</td>
+                                <td><a href="https://www.xxxxxx....">https://www.xxxxxx....</a></td>
+                                <td>1,000 - 50,000</td>
+                                <td>0.72%起</td>
+                                <td>高</td>
+                                <td class="text-success">正常</td>
+                                <td>
+                                    <a class="btn btn-primary" href="channel-setting.html">编辑</a>
+                                    <button type="button" class="btn btn-danger">下线</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>读秒</td>
+                                <td><a href="https://www.xxxxxx....">https://www.xxxxxx....</a></td>
+                                <td>1,000 - 50,000</td>
+                                <td>0.72%起</td>
+                                <td>高</td>
+                                <td class="text-danger">下线</td>
+                                <td>
+                                    <a class="btn btn-primary" href="channel-setting.html">编辑</a>
+                                    <button type="button" class="btn btn-success">上线</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <nav class="pull-right">
+                            <ul class="pagination">
+                                <li class="disabled"><a href="#">&laquo;</a></li>
+                                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
