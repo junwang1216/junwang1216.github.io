@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body {
+    background: #F6F6F6;
+}
+
+/*验证手机*/
+.weui-vcode-img {
+    width: 108px;
+}
+
+.weui-vcode-btn {
+    width: 108px;
+    padding: 0;
+    text-align: center;
+}
+.weui-vcode-btn.vcode-inactive {
+    color: #999999;
+}
+
+/*用户协议*/
+.contract {
+    padding: 12px;
+}
+.contract ol {
+    margin-left: -12px;
+}
+.contract ol li {
+    margin: 8px 0 8px 24px;
+    font-size: 12px;
+}
+.contract ul {
+    list-style: none;
+    margin-left: -12px;
+}
+.contract ul li {
+    margin: 8px 0;
+    font-size: 12px;
+}
+.contract h1 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.contract h2 {
+    margin: 8px 0;
+}
+.contract p {
+    margin: 8px 0;
+    font-size: 12px;
+    text-indent: 24px;
+}
+
+/*渠道列表*/
+.banners .banner img {
+    width: 100%;
+}
+.channels {
+     margin-top: 0;
+ }
+.channels .channel {
+    color: #333;
+}
+.channels .channel .weui-cell__hd {
+    line-height: 1;
+}
+.channels .channel .weui-cell__bd, .channels .channel .weui-cell__ft {
+    height: 2.2rem;
+    line-height: 1.1rem;
+}
+.channels .channel .channel-logo {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 1.1rem;
+    margin-right: 0.4rem;
+}
+.channels .channel .channel-title {
+    font-weight: 700;
+    font-size: 0.48rem;
+}
+.channels .channel .channel-desc {
+    font-size: 0.4rem;
+    color: #333;
+}
+.weui-loadmore_line .weui-loadmore__tips {
+    background-color: inherit;
+}
+.channels-more {
+    position: fixed;
+    bottom: 0.4rem;
+    right: 0.4rem;
+    text-align: center;
+}
+.channels-more .more-list {
+    margin-bottom: 0.2rem;
+}
+.channels-more .more-list .more-list-item {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.7rem;
+    border: 1px solid #333;
+    display: block;
+    background: #FFFFFF;
+    margin: 0.2rem auto;
+    box-shadow: 0 0 2px #333;
+}
+.channels-more .more-list .more-list-item img {
+    width: 60%;
+    margin-top: 18%;
+}
+.channels-more .btn-more {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 0.8rem;
+    font-size: 0.4rem;
+    line-height: 1.6rem;
+    color: #333;
+    border: 1px solid #333;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px #333;
+}
+.code-dialog .weui-dialog__bd {
+    padding: 1em;
+    color: #999999;
+}
+.code-dialog .weui-dialog__bd img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*渠道详情*/
+.banner-header {
+    background: #FFFFFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.banner-header .banner-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    display: block;
+    margin: 20px auto 10px auto;
+}
+.banner-header p {
+    font-size: 1.2em;
+}
+.banner-detail {
+    padding: 10px 15px;
+}
+.banner-detail .banner-detail-item {
+    margin-bottom: 10px;
+}
+.banner-detail h2 {
+    margin-bottom: 10px;
+}
+.banner-detail p {
+    font-size: 14px;
+}
