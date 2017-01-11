@@ -31,11 +31,13 @@ body {
 }
 .contract ul {
     list-style: none;
-    margin-left: -12px;
 }
 .contract ul li {
     margin: 8px 0;
     font-size: 12px;
+}
+.contract ul li span {
+    margin-right: 8px;
 }
 .contract h1 {
     font-size: 16px;
